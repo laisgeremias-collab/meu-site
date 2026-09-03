@@ -1,1 +1,69 @@
 # meu-site
+HTML
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eula Cris - Site Oficial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Eula Cris</h1>
+            <p class="subtitle">Recife, Pernambuco</p>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section class="card release">
+            <h2>Novo Lançamento</h2>
+            <div class="release-info">
+                <p><strong>Gravadora:</strong> MK Music</p>
+                <p><strong>Compositores:</strong> Samuel Sabino, Fábio Paixão e Hugo Guimarães</p>
+                <p><strong>Produção Musical:</strong> Jonata Silva</p>
+                <p><strong>Data de Lançamento:</strong> 19 de dezembro de 2025</p>
+            </div>
+        </section>
+
+        <section class="card bio">
+            <h2>Sobre a Cantora</h2>
+            <p>Nascida em <strong>1º de outubro de 1999</strong> em Recife, Pernambuco, Eula Cris iniciou sua jornada na música ainda na infância, fazendo suas primeiras apresentações aos <strong>7 anos de idade</strong>.</p>
+            <p>Sua carreira profissional começou aos <strong>14 anos</strong>, consolidando sua trajetória na música gospel e alcançando vidas por todo o país.</p>
+        </section>
+
+        <section class="card stats">
+            <h2>Redes Sociais & Alcance</h2>
+            <p class="total-followers">Mais de <strong>1,1 Milhão</strong> de seguidores acumulados</p>
+            
+            <div class="social-grid">
+                <div class="social-box">
+                    <h3>Instagram</h3>
+                    <span>569 mil seguidores</span>
+                </div>
+                <div class="social-box">
+                    <h3>YouTube</h3>
+                    <span>482 mil inscritos</span>
+                </div>
+                <div class="social-box">
+                    <h3>Spotify</h3>
+                    <span>136 mil ouvintes</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Eula Cris - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
